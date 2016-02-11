@@ -8,8 +8,8 @@ Gem::Specification.new do |spec|
   spec.version       = Conduit::VERSION
   spec.authors       = ["Joe Bellus"]
   spec.email         = ["joe@5sigma.io"]
-  spec.summary       = %q{TODO: Ruby bindings for Conduit.}
-  spec.description   = %q{TODO: An API SDK for communicating with a Conduit server.}
+  spec.summary       = %q{Ruby bindings for Conduit.}
+  spec.description   = %q{An API SDK for communicating with a Conduit server.}
   spec.homepage      = "http://conduit.5sigma.io"
   spec.license       = "MIT"
 
