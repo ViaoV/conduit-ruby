@@ -1,16 +1,16 @@
 # coding: utf-8
 lib = File.expand_path('../lib', __FILE__)
 $LOAD_PATH.unshift(lib) unless $LOAD_PATH.include?(lib)
-require 'conduit/ruby/version'
+require 'conduit/version'
 
 Gem::Specification.new do |spec|
-  spec.name          = "conduit-ruby"
-  spec.version       = Conduit::Ruby::VERSION
+  spec.name          = "conduit"
+  spec.version       = Conduit::VERSION
   spec.authors       = ["Joe Bellus"]
   spec.email         = ["joe@5sigma.io"]
-  spec.summary       = %q{TODO: Write a short summary. Required.}
-  spec.description   = %q{TODO: Write a longer description. Optional.}
-  spec.homepage      = ""
+  spec.summary       = %q{TODO: Ruby bindings for Conduit.}
+  spec.description   = %q{TODO: An API SDK for communicating with a Conduit server.}
+  spec.homepage      = "http://conduit.5sigma.io"
   spec.license       = "MIT"
 
   spec.files         = `git ls-files -z`.split("\x0")
