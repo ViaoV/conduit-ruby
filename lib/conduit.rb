@@ -10,7 +10,7 @@ module Conduit
 
   class ApiError < StandardError; end
 
-  class Client
+  class ApiClient
     attr_accessor :host, :access_key_name, :access_key_secret
     def initialize(host, key_name, key_secret)
       @host = host
