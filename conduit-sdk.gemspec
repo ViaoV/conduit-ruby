@@ -1,10 +1,10 @@
 # coding: utf-8
 lib = File.expand_path('../lib', __FILE__)
 $LOAD_PATH.unshift(lib) unless $LOAD_PATH.include?(lib)
-require 'conduit/version'
+require 'version'
 
 Gem::Specification.new do |spec|
-  spec.name          = "conduit"
+  spec.name          = "conduit-sdk"
   spec.version       = Conduit::VERSION
   spec.authors       = ["Joe Bellus"]
   spec.email         = ["joe@5sigma.io"]
