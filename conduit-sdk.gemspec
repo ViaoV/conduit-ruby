@@ -5,7 +5,7 @@ require 'version'
 
 Gem::Specification.new do |spec|
   spec.name          = "conduit-sdk"
-  spec.version       = Conduit::VERSION
+  spec.version       = ConduitSdk::VERSION
   spec.authors       = ["Joe Bellus"]
   spec.email         = ["joe@5sigma.io"]
   spec.summary       = %q{Ruby bindings for Conduit.}

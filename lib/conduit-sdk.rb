@@ -6,7 +6,7 @@ require "json"
 require 'securerandom'
 require 'uri'
 
-module Conduit
+module ConduitSdk
 
   class ApiError < StandardError; end
 
